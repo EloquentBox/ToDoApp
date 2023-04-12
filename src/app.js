@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import Task from "./components/Task";
 
 const App = () => {
     return (
     <>
-        <h1>ToDo app</h1>
+        <Header />
+        <Task />
     </>
     )
 }
